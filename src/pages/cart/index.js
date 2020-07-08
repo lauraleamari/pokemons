@@ -1,6 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import { Link, useHistory} from 'react-router-dom';
-
+import React, { useState} from 'react';
 
 import './styles.css';
 
@@ -34,6 +32,13 @@ const Cart = () => {
                 </form>
             </header>
 
+            <fieldset>
+                <div className="field-group">
+                    <div className="field cards">
+                        Parabéns pela Compra!
+                    </div>
+                </div>
+            </fieldset>
 
         </div>
     );

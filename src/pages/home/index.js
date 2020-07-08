@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { FiSearch } from 'react-icons/fi';
 import { useHistory} from 'react-router-dom';
 
 import api from '../../services/api';
@@ -12,7 +11,6 @@ const Home = () => {
     const [search, setSearch] = useState('');
     const [pokemons, setPokemons] = useState([]);
     const [pokeSelect, setPokeSelect] = useState([]);
-    const [pokeValue, setPokeValue] = useState([]);
 
     useEffect(() => {
         api.get('/pokemon').then(response =>{
@@ -32,7 +30,6 @@ const Home = () => {
     }
 
     function handleClick(item){
-        const valor = item.game_indices[1].game_index;
         setPokeSelect([ ...pokeSelect, item]);
     }
 
