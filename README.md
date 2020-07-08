@@ -1,3 +1,34 @@
+Desafio: Loja Online - Pokestore - Gama Academy 
+
+Hoje estamos trazendo aqui mais um desafio, para que vocês possam colocar a mão na massa e praticarem tudo que aprenderam até agora, assim possam solidificar o conhecimento, se aventurando em mais uma prática Yay
+
+Sabendo disso, queremos que você vivencie a experiência de construir uma loja virtual, e nos mostre como você imaginaria ser uma loja de Pokémon. Isso mesmo.
+Um projeto divertido.
+
+Os Pokémon (sim, esse é o plural) deverão ser mostrados a partir da pokeapi(https://pokeapi.co/), uma api com dados de todos os Pokémon (ou quase todos).
+
+Após requisitar os Pokémon, os preços podem ser definidos aleatoriamente, só esteja preocupado em manter a consistência entre o carrinho lateral e o preço mostrado no catálogo.
+Layout: https://lh6.googleusercontent.com/JONJjYGRUnj_EkjqQg3xYOfs2k5DqT_3it6VkFAB12iv5B_q1tHc2DP-HR51U01sWNx9LLTEyyFhyLbHIGSyhvoDXDxvQSD3UWZ2fo_pdEuaoQ26WsVIDSVg-eA72vuJYoz6X2hQ
+
+Não se assuste! Imaginamos muitas funcionalidades, mas você poderá fazer somente o elencado abaixo. O MVP consiste em:
+
+- Catálogo de produtos
+- Carrinho lateral
+- Resumo do carrinho
+
+Caso isso tudo seja pouco e você queira batalhar em outros ginásios, não se preocupe, está permitido fazer tudo o que sua imaginação permitir e nos impressionar. Abaixo segue outras ideias propostas no protótipo.
+
+- Barra de busca para filtrar os Pokémon
+- Botão de finalizar compra, reiniciando o processo de compra
+- Modal de obrigado ao finalizar compra
+- Salvar os dados da compra do usuário localmente para não perdê-las ao atualizar a página
+
+Recomendamos a utilização da biblioteca ReactJS com o comando create-react-app, mas sinta-se livre para utilizar a tecnologia que preferir, mas não se esqueça que uma aplicação shiny é uma aplicação bem testada e que funcione em todos os tamanhos de tela.
+
+Lembra-se que, esse projeto não tem como objetivo a correção de todos os códigos e sim ser um estímulo para que vocês coloquem a mão na massa se desafiando com um projeto PBL (Project Base Learning).
+
+------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
